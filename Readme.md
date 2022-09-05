@@ -8,4 +8,4 @@
 4. [QuerySet. QuerySet qaytaradigan metodlar](https://github.com/Oybeklinux/Django-rest-framework/blob/b6a11c501d3923bba0c2a9d6a5fe6abf6107e7ea/4.%20QuerySet.%20QuerySet%20qaytaradigan%20metodlar)
 5. [QuerySet. Mantiqiy shartlar va agregat funksiyalar](https://github.com/Oybeklinux/Django-rest-framework/blob/b6a11c501d3923bba0c2a9d6a5fe6abf6107e7ea/5.%20QuerySet.%20Mantiqiy%20shartlar%20va%20agregat%20funksiyalar)
 6. [QuerySet. QuerySet qaytarmaydigan metodlar](https://github.com/Oybeklinux/Django-rest-framework/blob/b6a11c501d3923bba0c2a9d6a5fe6abf6107e7ea/6.%20QuerySet.%20QuerySet%20qaytarmaydigan%20metodlar)
-7. []    
+7. [Modellar va ma'lumot kiritish](7.%20Kirish)    
