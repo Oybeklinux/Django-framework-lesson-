@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('bio', models.TextField(blank=True, null=True)),
                 ('location', models.CharField(max_length=100)),
-                ('profile_image', models.ImageField(upload_to='portfolio')),
+                ('profile_image', models.ImageField(upload_to='projects')),
                 ('social_github', models.CharField(blank=True, max_length=100, null=True)),
                 ('social_telegram', models.CharField(blank=True, max_length=100)),
                 ('social_instagram', models.CharField(default='instagram', max_length=100)),

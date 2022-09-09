@@ -9,7 +9,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, null=True, blank=True)
     bio = models.TextField(blank=True, null=True)
     location = models.CharField(max_length=100, blank=False, null=False)
-    profile_image = models.ImageField(upload_to='portfolio')
+    profile_image = models.ImageField(upload_to='projects')
     social_github = models.CharField(max_length=100, blank=True, null=True)
     social_telegram = models.CharField(max_length=100, blank=True, null=False)
     social_instagram = models.CharField(max_length=100, default="instagram")
