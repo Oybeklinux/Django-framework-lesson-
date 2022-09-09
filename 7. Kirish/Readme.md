@@ -296,4 +296,10 @@ Review
 ![](img_1.png)
  
 
-- Shablon bilan ishlash 
+- Loyihalarni qaytaruvchi url yasaymiz
+
+<p><b>projects/view.py</b></p>
+
+```text
+
+```
