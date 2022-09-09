@@ -7,5 +7,25 @@
 {% block content %}
 <h1>Loyihalar</h1>
 
+<a href="{% url 'add_project' %}">Qo'shish</a>
+
+<table border="1" align="center">
+    <tr height="40">
+        <th width="200">Nomi</th>
+        <th>Ovozlar soni</th>
+        <th>Ozovlar nisbati</th>
+        <th>Dasturchi</th>
+    </tr>
+    {% for item in items %}
+    <tr height="50">
+        <td>{{item.title}}</td>
+        <td>{{item.vote_count}}</td>
+        <td>{{item.vote_ratio}}</td>
+        <td>{{item.user}}</td>
+        <td><a href="{% url 'project' item.id %}">Ko'rish</a></td>
+    </tr>
+    {% endfor %}
+</table>
+
 
 {% endblock %}

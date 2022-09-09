@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+
+
+{% block title %} Loyihalar {% endblock %}
+
+
+{% block content %}
+<h1>Insert </h1>
+
+
+{% for f in form %}
+    {{f.label}} <p>{{f}}</p>
+{% endfor %}
+
+{% endblock %}

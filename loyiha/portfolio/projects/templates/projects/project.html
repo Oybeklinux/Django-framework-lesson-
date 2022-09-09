@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+
+
+{% block title %} Loyihalar {% endblock %}
+
+
+{% block content %}
+<h1>{{item.title}}</h1>
+
+<table border="1" align="center">
+    <tr height="50">
+        <th>Rasmi</th>
+        <td><img src="{{item.image.url}}" width="300"> </td>
+    </tr>
+    <tr height="50">
+        <th>Ovozlar soni</th>
+        <td>{{item.vote_count}}</td>
+    </tr>
+    <tr height="50">
+        <th>Ovozlar nisbati</th>
+        <td>{{item.vote_count}}</td>
+    </tr>
+    <tr height="50">
+        <th>Dasturchi</th>
+        <td>{{item.user}}</td>
+    </tr>
+</table>
+
+
+{% endblock %}
